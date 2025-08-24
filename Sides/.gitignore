@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Keep these file types
+!*.html
+!*.py
+!*.jl
+!*.css
+!*.js
+
+# Keep important docs
+!LICENSE
+!README
+!README.md
+
+# Keep the .gitignore itself
+!.gitignore
