@@ -1,0 +1,15 @@
+# Normalize line endings (Windows ↔ Linux ↔ macOS consistency)
+* text=auto
+
+# Treat all .sh files as shell scripts with LF line endings
+*.sh text eol=lf
+
+# Mark image files as binary (no diffs in git diff)
+*.png binary
+*.jpg binary
+
+# Custom merge strategy for lockfiles
+package-lock.json merge=ours
+
+# Linguist overrides (GitHub language stats)
+*.ipynb linguist-language=Python
